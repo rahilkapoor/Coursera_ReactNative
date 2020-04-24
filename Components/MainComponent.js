@@ -8,7 +8,7 @@ import MenuScreen from "./MenuComponent";
 import AboutScreen from "./AboutComponent";
 import ContactScreen from "./ContactComponent";
 
-const Drawer = createDrawerNavigator({ drawerBackgroundColor: "#f4511e" });
+const Drawer = createDrawerNavigator();
 
 export default function MainComponent() {
 	return (
